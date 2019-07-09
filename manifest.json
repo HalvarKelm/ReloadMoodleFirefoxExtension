@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "ReloadMoodleExtension",
+  "permissions": [
+    "tabs"
+  ],
+  "version": "1.0",
+  "description": "Reloads moodle .php pages so they don't log you out",
+  "icons": {
+    "48": "icons/icon_Moodle.png"
+  },
+  "background": {
+      "scripts": ["reloadmoodleextension.js"]
+  }
+}
